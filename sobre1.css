@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.sobre{
+    width: 100%;
+    height: 760px;
+    /*background-color: #b0442f;*/
+    background-image: url("peixe-pargo-assado.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.sobre h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo h1{
+    font-size: 70px;
+    text-align: center;
+    background-color: brown;
+    font-family: courier,arial,helvetica, sans-serif;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+.menu{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    left: 410px;
+}
+/*tem que seguir os ancestrais*/
+.menu li a{
+    text-decoration: none;
+    font-size:25px;
+    color:black;
+    position: relative;
+    top:3px;
+    color:white;
+}
+.menu li {
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    background-color:gray;
+    border-radius:10px;
+}
+
+.menu li:hover {
+    animation: bounce 1s;
+    background-color:rgb(4, 0, 250);
+}
+.corpo{
+    position: relative;
+    width: 100%;
+    height: 430;
+}
+.corpo h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: brown;
+    border-radius: 70% ;
+}
+.corpo img{
+    width: 350px;
+    position: relative;
+    top:60px;
+    left:150px;
+    border:solid 4px white;
+    border-radius:10px;
+}
+.text{
+    width: 600px;
+    height: 410px;
+    position: relative;
+    top: 100px;
+    left: 320px;
+    background-color: rgb(7, 109, 128);
+    border-radius: 10px;
+}
+.text p{
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 27px;
+    color: black;
+}
